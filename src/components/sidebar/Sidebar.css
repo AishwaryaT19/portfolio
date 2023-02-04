@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background-color: var(--heading-color);
+  background-color: #75b01d;
   border-right: 1px solid var(--heading-color);
   padding: 40px;
   width: 100px;

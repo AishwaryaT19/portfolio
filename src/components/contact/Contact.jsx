@@ -56,7 +56,7 @@ const Contact = () => {
             <AiOutlineMail size={22} className="contact_type-icon" />
             <span>kuhukanha@gamil.com</span>
           </a>
-          <a href="#home" className="contact_type">
+          <a href="https://github.com/AnantShukla22" className="contact_type">
             <AiFillGithub size={24} className="contact_type-icon" />
             <span>Github</span>
           </a>
@@ -68,7 +68,6 @@ const Contact = () => {
             href="https://api.whatsapp.com/send?phone=9425872022"
             className="contact_type"
           >
-            {" "}
             <BsWhatsapp size={20} className="contact_type-icon" />
             <span>9425872022</span>
           </a>

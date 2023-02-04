@@ -61,7 +61,7 @@
 
 .timeline_year {
   color: var(--heading-color);
-  color: var(--icon-color);
+  color: rgba(255, 236, 193, 0.763);
   font-weight: 600;
   margin: 5px 0 5px 0;
   font-size: 12px;

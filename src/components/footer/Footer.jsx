@@ -19,7 +19,7 @@ const Footer = () => {
 
     <div className="footer_socials">
         <a href="#home"><AiFillLinkedin size={24}/></a>
-        <a href="#home"><AiFillGithub size={24}/></a>
+        <a href="https://github.com/AnantShukla22"><AiFillGithub size={24}/></a>
         <a href="#home"><FaTwitter size={22}/></a>
         <a href="#home"><AiFillFacebook size={23}/></a>
         <a href="#home"><AiFillInstagram size={24}/></a>

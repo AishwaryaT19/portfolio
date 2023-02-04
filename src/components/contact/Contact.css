@@ -16,7 +16,7 @@
 .contact_msg {
   margin-bottom: 70px;
   white-space: inherit;
-
+align-self: center;
 }
 
 .contact_info {
@@ -43,6 +43,8 @@
   align-items: center;
   justify-content: center;
   width: 150px;
+   outline: none;
+  border: none;
 }
 
 .contact_type span {
