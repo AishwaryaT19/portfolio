@@ -66,6 +66,7 @@ const Contact = () => {
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=9425872022"
+            rel="noopener noreferrer" 
             className="contact_type"
           >
             <BsWhatsapp size={20} className="contact_type-icon" />

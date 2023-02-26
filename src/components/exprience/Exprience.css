@@ -69,7 +69,6 @@
 .timeline_title {
   font-size: 17px;
   margin: 0px 0 3px 0px;
-  /* color: var(--heading-color); */
   color: var(--bgcolor-color);
   font-weight: 600;
   margin: 1px 0 15px 0;
@@ -78,16 +77,8 @@
 .timeline_desc {
   font-size: 15px;
   color: var(--text-color);
-  /* color: rgb(255, 236, 193); */
-
   font-weight: 400;
 }
-
-/* @media screen and (max-width:1160px) {
-    .resume{
-        padding: 30px 70px 80px 70px;
-    }
-} */
 
 @media screen and (max-width: 1145px) {
   .resume {

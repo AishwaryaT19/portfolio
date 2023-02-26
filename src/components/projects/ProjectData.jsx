@@ -1,4 +1,11 @@
-import work1 from "../../images/jsImg.png"
+import solanart from "../../images/solanart.png"
+import work1 from "../../images/solanart.png"
+import work1 from "../../images/solanart.png"
+import work1 from "../../images/solanart.png"
+import work1 from "../../images/solanart.png"
+import work1 from "../../images/solanart.png"
+
+
 const work2=work1
 const work3=work1
 const work4=work1

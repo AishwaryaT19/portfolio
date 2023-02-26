@@ -3,7 +3,7 @@ import "./Sidebar.css";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillPenFill,BsFillPersonFill } from "react-icons/bs";
 import { IoIosCall } from "react-icons/io";
-import MyImage from "../../images/Myimg.jpeg";
+import MyImage from "../../images/as-logo.png";
 import {MdWork} from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import { motion as m } from "framer-motion";
@@ -14,8 +14,8 @@ const Sidebar = () => {
   return (
     <>
       <m.div className={toggle?"aside show_menu":"aside"}>
-        <a href="#home" className="nav_logo">
-          <img src={MyImage} alt="" />
+        <a href="#home">
+          <img src={MyImage} alt="" className="nav_logo"/>
         </a>
         <nav className="nav">
           <div className="nav_menu">
@@ -51,7 +51,7 @@ const Sidebar = () => {
         </nav>
         <div className="nav_footer">
           <span className="copyright">
-            <p>EVERYTHING ENDS HERE  </p>
+            <p>Thanks For Visiting  </p>
           </span>
         </div>
 

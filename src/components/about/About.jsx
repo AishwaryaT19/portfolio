@@ -25,14 +25,14 @@ const About = () => {
     },
   };
 
-  const my_flex = {
+  const my_skills = {
     offscreen: {
       scale: 0.1,
       opacity: 0,
     },
     onscreen: {
       scale: 1,
-      transition: { duration: 1, once: false },
+      transition: { duration: 0.8, once: false },
       opacity: 1,
     },
     exit: {
@@ -77,8 +77,7 @@ const About = () => {
             <p className="about_description">
             I am an enthusiastic and driven pre-final year Computer Science student in SRMIST . I want to kick start my career in technical role to utilize my strong analytical skills and technical knowledge in the Tech Industry to build something meaningful. I am able to quickly adapt to new technologies hence, my technical skills, attention to detail, and passion for creating web applications make me a great fit for the role of a web developer.
             </p>
-            <m.button variants={my_flex}    
- className="about_cv_button">
+            <m.button variants={my_skills} className="about_cv_button">
               <a href={Resume}>Download CV</a>
             </m.button>
           </div>
@@ -99,7 +98,7 @@ const About = () => {
               {/* skill title and digit */}
               <div className="skills_title">
                 <h3 className="skills_name">UI/UX</h3>
-                <span className="skills_number">60%</span>
+                <span className="skills_number">70%</span>
               </div>
               {/* skill bar */}
               <div className="skills_bar">
@@ -110,7 +109,7 @@ const About = () => {
               {/* skill title and digit */}
               <div className="skills_title">
                 <h3 className="skills_name">Programming</h3>
-                <span className="skills_number">70%</span>
+                <span className="skills_number">80%</span>
               </div>
               {/* skill bar */}
               <div className="skills_bar">
@@ -119,20 +118,20 @@ const About = () => {
             </div>
           
             <m.div
-              variants={my_flex}
+              variants={my_skills}
               className="myflex"
             >
-              <m.h3 variants={my_flex} whileInView={"onscreen"}>
-                My Flex
+              <m.h3 variants={my_skills} whileInView={"onscreen"}>
+                My Skills
               </m.h3>
               <m.ul
-                variants={my_flex}
+                variants={my_skills}
                 className="flex_ul"
               >
-                <li className="flex_list">abcdefghijklmnopqrst</li>
-                <li className="flex_list">abcdefghijklmnopqrst</li>{" "}
-                <li className="flex_list">abcdefghijklmnopqrst</li>{" "}
-                <li className="flex_list">abcdefghijklmnopqrst</li>
+                <li className="flex_list">Languages- C++, Solidity</li>{" "}
+                <li className="flex_list">HTML, CSS, JavaScript</li>
+                <li className="flex_list">Framework- Next.Js, Tailwind</li>{" "}
+                <li className="flex_list">Blockchain Tech- Ganache,Truffle,Web3.Js</li>
               </m.ul>
             </m.div>
           </div>

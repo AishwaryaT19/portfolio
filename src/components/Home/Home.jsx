@@ -4,6 +4,7 @@ import MyImage from "../../images/Myimg.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import Scrolldown from "./Scrolldown";
 import { motion as m } from "framer-motion";
+import Resume from "../../images/Anant'sResume.pdf"
 
 const Home = () => {
 
@@ -46,10 +47,10 @@ const Home = () => {
 
         <div className="home-buttons">
           <button className="home-buttons-contact">
-            <a href="/contact">Contact Me</a>
+            <a href="#contact">Contact Me</a>
           </button>
           <button className="home-buttons-cv">
-            <a href="/">Download CV</a>
+            <a href={Resume}>Download CV</a>
           </button>
         </div>
         <Scrolldown />

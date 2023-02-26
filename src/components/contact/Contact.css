@@ -94,12 +94,12 @@ form {
   outline: transparent;
   height: 50px;
   transition: 0.5s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
 }
 .inputs input::placeholder {
   color: var(--body-color);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Times New Roman", Times, serif;
   font-weight: 500;
   position: absolute;
@@ -134,7 +134,7 @@ form > textarea::placeholder {
   top: 15px;
   left: 15px;
   color: var(--body-color);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Times New Roman", Times, serif;
 }
 textarea:hover {

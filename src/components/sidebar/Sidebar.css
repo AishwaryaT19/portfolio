@@ -14,6 +14,10 @@
   z-index: 10;
 }
 
+.nav_logo{
+  width: 100px;
+  height: 80px;
+}
 .nav_list {
   display: flex;
   flex-direction: column;
@@ -23,23 +27,24 @@
 .nav_icon1 {
   color: var(--body-color);
   color: #e14801;
+  color: rgb(35, 35, 35);
 }
 .nav_icon2 {
-  color: var(--body-color);
-  color: #b225b7;
+  color: rgb(35, 35, 35);
+
 }
 .nav_icon3 {
-  color: var(--body-color);
-  color: #0168a0;
+  color: rgb(35, 35, 35);
 }
+
 .nav_icon4 {
-  color: var(--body-color);
-  color: #d5d200;
+  color: rgb(35, 35, 35);
 }
+
 .nav_icon5 {
-  color: var(--body-color);
-  color: #725400;
+  color: rgb(35, 35, 35);
 }
+
 .nav_icon:hover {
   color: var(--text-color);
   transform: scale(1.3);
@@ -73,11 +78,6 @@
   100% {
     background-position: 400%;
   }
-}
-
-.aside img {
-  width: 30px;
-  height: 30px;
 }
 
 /* for responsive toggle */
