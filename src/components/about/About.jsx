@@ -3,6 +3,7 @@ import "./About.css";
 import MyImage from "../../images/Myimg.jpeg";
 import Hobbies from "./Hobbies";
 import { motion as m } from "framer-motion";
+import Resume from "../../images/Anant'sResume.pdf"
 
 const About = () => {
   const about_data = {
@@ -74,13 +75,11 @@ const About = () => {
         >
           <div className="about_info">
             <p className="about_description">
-            Computer Science Engineering At SRMIST Ramapuram Chennai. I am a passionate learner and I am trying to learn new things everyday.
-            Computer Science Engineering At SRMIST Ramapuram Chennai. I am a passionate learner and I am trying to learn new things everyday
-            Computer Science Engineering At SRMIST Ramapuram Chennai. I am a passionate learner and I am trying to learn new things everyday
+            I am an enthusiastic and driven pre-final year Computer Science student in SRMIST . I want to kick start my career in technical role to utilize my strong analytical skills and technical knowledge in the Tech Industry to build something meaningful. I am able to quickly adapt to new technologies hence, my technical skills, attention to detail, and passion for creating web applications make me a great fit for the role of a web developer.
             </p>
             <m.button variants={my_flex}    
  className="about_cv_button">
-              <a href="/">Download CV</a>
+              <a href={Resume}>Download CV</a>
             </m.button>
           </div>
 

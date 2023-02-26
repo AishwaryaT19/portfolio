@@ -12,7 +12,7 @@ const Portfolio = () => {
       x: "0",
       opacity:1,
       // rotate: [360, 180, 0],
-      transition: { duration: 0.6, type: "spring", bounce: 0.4},
+      transition: { duration: 0.3, type: "spring", bounce: 0.4},
     },
     exit:{
       // rotate: [0, 180, 360],
@@ -27,7 +27,7 @@ const Portfolio = () => {
       x: "0",
       opacity:1,
       // rotate: [0, 180, 360],
-      transition: { duration: 1, type: "spring", bounce: 0.8 },
+      transition: { duration: 0.3, type: "spring", bounce: 0.8 },
     },
     exit:{
       // rotate: [360, 180, 0],

@@ -74,6 +74,8 @@
   text-align: justify;
   width: 100%;
   color: var(--text-color);
+  word-wrap: normal;
+  word-spacing: .2;
 }
 
 .about_cv_button {
