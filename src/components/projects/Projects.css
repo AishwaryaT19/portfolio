@@ -1,7 +1,5 @@
 .project {
   padding: 30px 100px 100px 100px;
-  /* min-width: 100vh; */
-  /* min-height: 100vh; */
       overflow: hidden;
 }
 
@@ -22,6 +20,11 @@
   margin-left: 5px;
   margin-bottom: 50px;
 }
+.project_img{
+  width: 230px;
+  height: 230px;
+  object-fit: contain;
+}
 
 .project_item {
   cursor: pointer;
@@ -41,15 +44,15 @@ display: flex;
 flex-wrap: wrap;
 gap: 35px;
 justify-content: center;
-  margin-top: 30px;
+margin-top: 30px;
 }
 .project_card {
   display: flex;
   position: relative;
-  width: max-content;
+  width: 230px;
+  height: 230px;
 }
 
-/* aese nhi dikhega but hover karne mai ayega */
 .project_mask {
   background-color: var(--body-color);
   position: absolute;

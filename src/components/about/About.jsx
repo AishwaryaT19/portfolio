@@ -49,8 +49,8 @@ const About = () => {
       whileInView={"onscreen"}
 
       exit={"exit"}
-      viewport={{ once: false, amount: 0.4 }}
-      transition={{ staggerChildren: 0.2 }}
+      viewport={{ once: false, amount: 0.2 }}
+      transition={{ staggerChildren: 0.1 }}
     >
       <m.h2
         variants={about_title}

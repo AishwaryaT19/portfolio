@@ -1,53 +1,53 @@
 import solanart from "../../images/solanart.png"
-import work1 from "../../images/solanart.png"
-import work1 from "../../images/solanart.png"
-import work1 from "../../images/solanart.png"
-import work1 from "../../images/solanart.png"
-import work1 from "../../images/solanart.png"
-
-
-const work2=work1
-const work3=work1
-const work4=work1
-const work5=work1
-const work6=work1
+import amazon from "../../images/amazon.png"
+import hulu from "../../images/hulu.png"
+import foodiesapp from "../../images/foodiesapp.png"
+import lotteryapp from "../../images/lotteryapp.png"
+import portfolio from "../../images/portfolio.png"
+import todoapp from "../../images/todoapp.png"
 
 
 const ProjecctData=[
     {
         id:1,
-        image:work1,
+        image:solanart,
         title:"Foodies Bay",
         category:"Frontend"
     },
     {
         id:2,
-        image:work2,
+        image:amazon,
         title:"Here's Your Trip",
         category:"Frontend"
     }, {
         id:3,
-        image:work3,
+        image:hulu,
         title:"Portfolio Website",
         category:"Frontend"
     },
     {
         id:4,
-        image:work4,
+        image:foodiesapp,
+        title:"Here's Your Trip",
+        category:"Frontend"
+    }, {
+        id:5,
+        image:portfolio,
+        title:"Portfolio Website",
+        category:"Frontend"
+    },
+    {
+        id:6,
+        image:todoapp,
         title:"MintVerse:Make Ur Metaverse",
         category:"Blockchain"
     },
     {
-        id:5,
-        image:work5,
+        id:7,
+        image:lotteryapp,
         title:"NFT ",
         category:"Blockchain"
-    }, {
-        id:6,
-        image:work6,
-        title:"Lottery Dapp",
-        category:"Blockchain"
-    },
+    }
 
 ]
 

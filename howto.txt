@@ -18,3 +18,4 @@ learn about display inline block in project_category in project.jss
 leanr how filter works in project.js
 
 in framer motion see -react-intersection-observer
+
